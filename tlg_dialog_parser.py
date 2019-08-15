@@ -20,6 +20,7 @@ def tlg_parser(html):
     with open('chat.txt', 'w', encoding='utf-8') as txt:
         print(chat_text, file=txt)
 
+
 if __name__ == '__main__':
     work_dir = os.getcwd()
     for file in os.listdir(work_dir):
